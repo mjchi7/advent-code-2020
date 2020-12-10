@@ -6,6 +6,11 @@ class Passport(object):
             "byr": [lambda x: len(x) == 4 and int(x) > 1920 and int(x) < 2002],
             "iyr": [lambda x: len(x) == 4 and int(x) > 2010 and int(x) < 2020],
             "eyr": [lambda x: len(x) == 4 and int(x) > 2020 and int(x) < 2030],
+            "hgt": [], # TODO
+            "hcl": [lambda x: len(x) == 5], # TODO
+            "ecl": [lambda x: x in ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]],
+            "pid": [lambda x: len(x) == 9],
+            "cid": []
         }
         self.props = {}
         skippable = ["cid"]

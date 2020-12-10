@@ -1,0 +1,4 @@
+advent/code/day5/BoardingPassScanner.java
+ advent.code.day5.BoardingPassScanner
+advent/code/day5/Main.java
+ advent.code.day5.Main
