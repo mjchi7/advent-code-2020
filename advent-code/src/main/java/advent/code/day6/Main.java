@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void solutionOne() throws Exception {
-        String inp = Files.readString(Path.of("./src/main/java/advent/code/day6/resource/input.txt"));
+        String inp = Files.readString(Path.of("./src/main/java/advent/code/day6/resource/input.partial.txt"));
         List<String> usersInp = Arrays.asList(inp.split("\\n\\n"));
         usersInp = usersInp.stream().map(s -> s.replace("\n", "").strip()).collect(Collectors
                 .toList());
@@ -35,7 +35,7 @@ public class Main {
     }
 
     public static void solutionTwo() throws Exception {
-        String inp = Files.readString(Path.of("./src/main/java/advent/code/day6/resource/input.txt"));
+        String inp = Files.readString(Path.of("./src/main/java/advent/code/day6/resource/input.partial.txt"));
         List<String> usersInp = Arrays.asList(inp.split("\\n\\n"));
         List<String> intersectionGroup = usersInp.stream().map(Main::findCommon).collect(Collectors.toList());
         Integer sum = intersectionGroup.stream().mapToInt(String::length).reduce(0, Integer::sum);

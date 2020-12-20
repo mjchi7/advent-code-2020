@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         String rules = Files.readString(Path
-                .of("./src/main/java/advent/code/day7/resource/input.txt"));
+                .of("./src/main/java/advent/code/day7/resource/input.partial.txt"));
         RuleParser ruleParser = new RuleParser();
         ruleParser.load(rules);
         logger.info(ruleParser.getChildToParentsMap().toString());

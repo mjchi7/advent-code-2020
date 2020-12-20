@@ -17,7 +17,7 @@ public class Day8Test {
 
     private static final String PARTIAL_INPUT_PATH = "src/main/java/advent/code/day8/resource/input.partial.txt";
 
-    private static final String INPUT_PATH = "src/main/java/advent/code/day8/resource/input.txt";
+    private static final String INPUT_PATH = "src/main/java/advent/code/day8/resource/input.partial.txt";
 
     @Test
     public void part1_testPartial() throws IOException {
