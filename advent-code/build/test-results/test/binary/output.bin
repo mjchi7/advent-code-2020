@@ -1,0 +1,4 @@
+_21:53:44.073 [Test worker] INFO advent.code.day8.Day8Test - part2_testFull: Global value: 1235
+_21:53:44.093 [Test worker] INFO advent.code.day8.Day8Test - part1_testFull: Global Value: 1859
+_21:53:44.107 [Test worker] INFO advent.code.day8.Day8Test - part2_testPartial: Global value: 8
+_21:53:44.115 [Test worker] INFO advent.code.day8.Day8Test - part1_testPartial: Global Value: 5

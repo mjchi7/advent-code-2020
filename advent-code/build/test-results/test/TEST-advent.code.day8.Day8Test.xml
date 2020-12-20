@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="advent.code.day8.Day8Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-20T13:53:43" hostname="MacBook-Pro.local" time="0.131">
+  <properties/>
+  <testcase name="part2_testFull()" classname="advent.code.day8.Day8Test" time="0.101"/>
+  <testcase name="part1_testFull()" classname="advent.code.day8.Day8Test" time="0.005"/>
+  <testcase name="part2_testPartial()" classname="advent.code.day8.Day8Test" time="0.011"/>
+  <testcase name="part1_testPartial()" classname="advent.code.day8.Day8Test" time="0.004"/>
+  <system-out><![CDATA[21:53:44.073 [Test worker] INFO advent.code.day8.Day8Test - part2_testFull: Global value: 1235
+21:53:44.093 [Test worker] INFO advent.code.day8.Day8Test - part1_testFull: Global Value: 1859
+21:53:44.107 [Test worker] INFO advent.code.day8.Day8Test - part2_testPartial: Global value: 8
+21:53:44.115 [Test worker] INFO advent.code.day8.Day8Test - part1_testPartial: Global Value: 5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
