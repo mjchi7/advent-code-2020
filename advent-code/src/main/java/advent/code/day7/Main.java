@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
 
@@ -23,5 +24,22 @@ public class Main {
         logger.info("Parents of shiny gold: " + parents.toString());
         logger.info("Number of parents of shiny gold: " + parents.size());
         logger.info("Number of dedupedParents of shiny gold: " + dedupedParents.size());
+
+        logger.info(ruleParser.getParentToChildMap().toString());
+        List<ChildBag> children = ruleParser.getChildren("shiny gold");
+        HashSet<ChildBag> dedupedChildren = new HashSet<>(children);
+        logger.info("Number of children of shiny gold: " + sumChild(ruleParser.getParentToChildMap(), "shiny gold"));
+    }
+
+    public static int sumChild(Map<String, List<ChildBag>> map, String parentName) {
+        List<ChildBag> children = map.get(parentName);
+        if (children == null || children.isEmpty()) {
+            return 0;
+        }
+        int sum = 0;
+        for (ChildBag childBag : children) {
+            sum += childBag.getCapacity() + (childBag.getCapacity() * sumChild(map, childBag.getName()));
+        }
+        return sum;
     }
 }
