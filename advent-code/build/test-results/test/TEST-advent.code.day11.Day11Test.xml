@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="advent.code.day11.Day11Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-28T07:15:31" hostname="MacBook-Pro.local" time="0.166">
+  <properties/>
+  <testcase name="part1_partial()" classname="advent.code.day11.Day11Test" time="0.166"/>
+  <system-out><![CDATA[Still in transient.
+SolvedMap: 	MemMap:
+L.LL.LL.LL	L.LL.LL.LL
+LLLLLLL.LL	LLLLLLL.LL
+L.L.L..L..	L.L.L..L..
+LLLL.LL.LL	LLLL.LL.LL
+L.LL.LL.LL	L.LL.LL.LL
+L.LLLLL.LL	L.LLLLL.LL
+..L.L.....	..L.L.....
+LLLLLLLLLL	LLLLLLLLLL
+L.LLLLLL.L	L.LLLLLL.L
+L.LLLLL.LL	L.LLLLL.LL
+Still in transient.
+SolvedMap: 	MemMap:
+#.##.##.##	L.LL.LL.LL
+#######.##	LLLLLLL.LL
+#.#.#..#..	L.L.L..L..
+####.##.##	LLLL.LL.LL
+#.##.##.##	L.LL.LL.LL
+#.#####.##	L.LLLLL.LL
+..#.#.....	..L.L.....
+##########	LLLLLLLLLL
+#.######.#	L.LLLLLL.L
+#.#####.##	L.LLLLL.LL
+Still in transient.
+SolvedMap: 	MemMap:
+#.LL.L#.##	#.##.##.##
+#LLLLLL.L#	#######.##
+L.L.L..L..	#.#.#..#..
+#LLL.LL.L#	####.##.##
+#.LL.LL.LL	#.##.##.##
+#.LLLL#.##	#.#####.##
+..L.L.....	..#.#.....
+#LLLLLLLL#	##########
+#.LLLLLL.L	#.######.#
+#.#LLLL.##	#.#####.##
+Still in transient.
+SolvedMap: 	MemMap:
+#.##.L#.##	#.LL.L#.##
+#L###LL.L#	#LLLLLL.L#
+L.#.#..#..	L.L.L..L..
+#L##.##.L#	#LLL.LL.L#
+#.##.LL.LL	#.LL.LL.LL
+#.###L#.##	#.LLLL#.##
+..#.#.....	..L.L.....
+#L######L#	#LLLLLLLL#
+#.LL###L.L	#.LLLLLL.L
+#.#L###.##	#.#LLLL.##
+Still in transient.
+SolvedMap: 	MemMap:
+#.#L.L#.##	#.##.L#.##
+#LLL#LL.L#	#L###LL.L#
+L.L.L..#..	L.#.#..#..
+#LLL.##.L#	#L##.##.L#
+#.LL.LL.LL	#.##.LL.LL
+#.LL#L#.##	#.###L#.##
+..L.L.....	..#.#.....
+#L#LLLL#L#	#L######L#
+#.LLLLLL.L	#.LL###L.L
+#.#L#L#.##	#.#L###.##
+Still in transient.
+SolvedMap: 	MemMap:
+#.#L.L#.##	#.#L.L#.##
+#LLL#LL.L#	#LLL#LL.L#
+L.#.L..#..	L.L.L..#..
+#L##.##.L#	#LLL.##.L#
+#.#L.LL.LL	#.LL.LL.LL
+#.#L#L#.##	#.LL#L#.##
+..L.L.....	..L.L.....
+#L#L##L#L#	#L#LLLL#L#
+#.LLLLLL.L	#.LLLLLL.L
+#.#L#L#.##	#.#L#L#.##
+Steady state achieved - solvedMap: 
+#.#L.L#.##
+#LLL#LL.L#
+L.#.L..#..
+#L##.##.L#
+#.#L.LL.LL
+#.#L#L#.##
+..L.L.....
+#L#L##L#L#
+#.LLLLLL.L
+#.#L#L#.##
+15:15:31.840 [Test worker] INFO advent.code.day11.Day11Test - #.#L.L#.##
+15:15:31.845 [Test worker] INFO advent.code.day11.Day11Test - #LLL#LL.L#
+15:15:31.845 [Test worker] INFO advent.code.day11.Day11Test - L.#.L..#..
+15:15:31.846 [Test worker] INFO advent.code.day11.Day11Test - #L##.##.L#
+15:15:31.847 [Test worker] INFO advent.code.day11.Day11Test - #.#L.LL.LL
+15:15:31.848 [Test worker] INFO advent.code.day11.Day11Test - #.#L#L#.##
+15:15:31.849 [Test worker] INFO advent.code.day11.Day11Test - ..L.L.....
+15:15:31.849 [Test worker] INFO advent.code.day11.Day11Test - #L#L##L#L#
+15:15:31.849 [Test worker] INFO advent.code.day11.Day11Test - #.LLLLLL.L
+15:15:31.850 [Test worker] INFO advent.code.day11.Day11Test - #.#L#L#.##
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
